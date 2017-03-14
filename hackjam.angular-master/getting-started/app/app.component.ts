@@ -1,14 +1,6 @@
 import { Component } from '@angular/core';
+import { mockBooks, Book } from './mocks/books';
 
-// Book Type
-export class Book {
-  title: Number;
-  cover: String;
-  category: String;
-}
-
-// TODO: Category Type
-export class Category {}
 
 @Component({
   selector: 'bookstore',
