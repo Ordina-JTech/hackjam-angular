@@ -1,4 +1,10 @@
-const categories = [
+
+export class Category {
+  name: String;
+  selected: Boolean;
+}
+
+export const categories = [
   { name: 'All', selected: true},
   { name: 'Web', selected: false},
   { name: 'Mobile', selected: false},
